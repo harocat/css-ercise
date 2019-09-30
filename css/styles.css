@@ -1,3 +1,13 @@
+body {
+        background-image: url('../images/grass.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+
+
+
 .head {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,70,1) 35%, rgba(255,0,221,1) 72%);
   height: 555px;
@@ -60,7 +70,15 @@
 .leg1 {
   background: navy;
   height: 30px;
-  width: 400px;
+  width: 550px;
   transform: translate(200px, -370px);
+
+}
+
+.leg2 {
+  background: navy;
+  height: 30px;
+  width: 500px;
+  transform: translate(230px, -420px);
 
 }
