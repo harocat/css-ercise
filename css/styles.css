@@ -1,0 +1,66 @@
+.head {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,70,1) 35%, rgba(255,0,221,1) 72%);
+  height: 555px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.lip {
+  background-color: blue;
+  height: 30px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translate(50px, -60px);
+  animation-name: talk;
+  animation-duration: 2s;
+}
+
+
+@keyframes talk {
+  0% { height: 0px; }
+  10% { height: 20px; }
+  90% { height: 30px; }
+  100% { height: 30px; }
+}
+
+.nose {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  transform: translate(60px, -400px);
+  border-left: 60px solid green;
+}
+
+.eye1 {
+  background: linear-gradient(90deg, rgba(224,194,27,1) 0%, rgba(247,247,194,1) 64%, rgba(162,168,34,1) 96%);
+  width: 50px;
+ height: 50px;
+ border: 10px solid black;
+  transform: translate(70px, -600px);
+}
+
+.eye2 {
+  background: linear-gradient(90deg, rgba(224,194,27,1) 0%, rgba(247,247,194,1) 64%, rgba(162,168,34,1) 96%);
+  width: 50px;
+ height: 50px;
+ border: 10px solid black;
+  transform: translate(10px, -600px);
+}
+
+.body {
+  background: grey;
+  height: 100px;
+  width: 200px;
+  transform: translate(40px, -330px);
+  border-radius: 50%;
+}
+
+
+.leg1 {
+  background: navy;
+  height: 30px;
+  width: 400px;
+  transform: translate(200px, -370px);
+
+}
